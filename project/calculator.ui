@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>443</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="equalbutton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>197</y>
+     <width>93</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>21</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background - corol : rgb(170, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="history">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>361</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputbutton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>64</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
